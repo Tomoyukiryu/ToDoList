@@ -41,13 +41,7 @@ public class UI {
     }
     }
     else{
-      for (int i = 0; i < display.length; i++) {
-      if(ArrayIsNull(display[i])){
           newLine(lineChar);
-        break;
-      }
-    }
-
     }
       lineLength = subarrayMaxLnegth();
   }
@@ -56,7 +50,7 @@ public class UI {
     for(int i = 0; i < display.length;i++){
         temp[i] = display[i];
     }
-    temp[temp.length] = arr;
+    temp[temp.length-1] = arr;
     display = temp;
   }
   public boolean ArrayIsNull(char[] arr){

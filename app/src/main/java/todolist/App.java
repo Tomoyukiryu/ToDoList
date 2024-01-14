@@ -9,6 +9,7 @@ public class App {
    UI ui = new UI();
     ui.addLine("XXUI");
     ui.addLine("I");
+    ui.addLine("IXXXXXXX");
     ui.frame();
   }
 

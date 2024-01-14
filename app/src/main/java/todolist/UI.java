@@ -6,6 +6,9 @@ package todolist;
  */
 public class UI {
   private char[][] display;
+  public UI(){
+    this.display = new char[2][2];
+  }
 
   public void frame(){
     horizontalFrame();
@@ -22,5 +25,6 @@ public class UI {
     for (int i = 0; i < display[0].length+4; i++) {
       System.out.print("*");
     }
+    System.out.println();
   }
 }
